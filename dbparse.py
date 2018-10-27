@@ -14,9 +14,13 @@ flag_definitions = {
     'PTMP-ONLY':	1<<6,
     'NO-IR':	        1<<7,
     # hole at bit 8
-    # hole at bit 9. FIXME: Where is NO-HT40 defined?
-    'NO-HT40':		1<<10,
     'AUTO-BW':		1<<11,
+    'GO-CONCURRENT':	1<<12,
+    'NO_HT40MINUS':	1<<13,
+    'NO_HT40PLUS':	1<<14,
+    'NO_80MHZ':		1<<15,
+    'NO_160MHZ':	1<<16,
+    'OCB-ONLY':		1<<17,
 }
 
 dfs_regions = {
